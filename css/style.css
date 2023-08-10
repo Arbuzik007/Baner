@@ -15,7 +15,7 @@ img {
 }
 .wrapper__row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     z-index: 2;
 }
 .wrapper__column {
@@ -52,7 +52,7 @@ img {
     color: #FFF;
     font-family: Yeseva One;
     font-size: 60px;
-    margin: -8px 0 21px 0;
+    margin: -8px 0 1.8vw 0;
 }
 .wrapper__title2 {
     color: #FFF;
@@ -60,6 +60,7 @@ img {
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
+    margin: 0;
 }
 .wrapper__links {
     display: flex;
