@@ -15,6 +15,7 @@ img {
 }
 .wrapper__row {
     display: flex;
+    align-items: center;
     z-index: 2;
 }
 .wrapper__column {
@@ -28,9 +29,6 @@ img {
     min-width: 61px;
     height: auto;
 }
-.c_one {
-    width: 184px;
-}
 .c_two {
     margin-left: 28px;
 }
@@ -39,7 +37,7 @@ img {
     max-width: 184px;
     min-width: 92px;
     max-height: 78px;
-    border-radius: 13.548px;
+    border-radius: 14px;
     background: #EAAB23;
     border: none;
     text-align: center;
@@ -53,22 +51,15 @@ img {
 .wrapper__title {
     color: #FFF;
     font-family: Yeseva One;
-    /* font-size: 5.8vw; */
-    font-size: calc(5.8vw - 20px);
-    /* max-width: 478px;
-    min-width: 239px; */
-    height: 5.4vw;
-    margin: 0;
-    margin: -14px 0 21px 0;
+    font-size: 60px;
+    margin: -8px 0 21px 0;
 }
 .wrapper__title2 {
     color: #FFF;
     font-family: Yeseva One;
-    font-size: 1.9vw;
-    height: 3.1vw;
+    font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
-    margin: 0;
 }
 .wrapper__links {
     display: flex;
@@ -110,26 +101,11 @@ img {
     text-align: center;
     color: #FFF;
     font-family: Roboto;
-    font-size: 2.2vw;
+    font-size: 22px;
     z-index: 2;
     margin: 0 auto;
     margin-top: 21px;
 }
-/* .text1 {
-    max-width: 478px;
-    min-width: 239px;
-}
-.text2 {
-    
-}
-.text3 {
-    display: block;
-    margin: 0 auto;
-    font-size: 2.2vw;
-    max-width: 700px;
-    min-width: 201px;
-} */
-
 
 
 .window {
@@ -145,7 +121,6 @@ img {
     bottom: 0;
     right: 0;
 }
-
 .wrapper__first-link {visibility: hidden;}
 .wrapper__first-link img {visibility: visible;}
 .wrapper__first-link:hover {visibility: visible;}
@@ -164,7 +139,7 @@ img {
 .window__text {
     color: #FFF;
     font-family: Inter;
-    font-size:3.1vw;
+    font-size: 31px;
     margin: 0;
     margin-top: 15px;
 }
@@ -187,8 +162,7 @@ img {
     opacity: 0.8;
 }
 .window__btn-choose {
-    border-radius: 27.097px;
-    height: 78px;
+    border-radius: 27px;
 }
 @keyframes phone {
     0% {
