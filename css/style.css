@@ -6,7 +6,7 @@ img {
 }
 .wrapper {
     position: relative;
-    background: url('/img/bg.jpg') no-repeat center;
+    background: url('../img/bg.jpg') no-repeat center;
     background-size: cover;
     max-width: 848px;
     max-height: 480px;
@@ -133,9 +133,9 @@ img {
 .wrapper__third-link img {visibility: visible;}
 .wrapper__third-link:hover {visibility: visible;}
 
-.one{background: url('/img/bg2.jpg') no-repeat center;}
-.two{background: url('/img/bg3.jpg') no-repeat center;}
-.three{background: url('/img/bg4.jpg') no-repeat center;}
+.one{background: url('../img/bg2.jpg') no-repeat center;}
+.two{background: url('../img/bg3.jpg') no-repeat center;}
+.three{background: url('../img/bg4.jpg') no-repeat center;}
 .window__text {
     color: #FFF;
     font-family: Inter;
