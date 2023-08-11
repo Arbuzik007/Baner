@@ -38,13 +38,14 @@ img {
     max-width: 184px;
     min-width: 92px;
     max-height: 78px;
-    border-radius: 14px;
+    border-radius: 27px;
     background: #EAAB23;
     border: none;
     text-align: center;
     font-family: Roboto;
     font-size: 22px;
     cursor: pointer;
+    padding: 13px 0;
 }
 .wrapper__btn-more:hover {
     opacity: 0.8;
@@ -191,9 +192,19 @@ img {
 .window__row2 svg:hover {
     opacity: 0.8;
 }
-.window__btn-choose {
+/* .window__btn-choose {
     border-radius: 27px;
-}
+    width: 18.4vw;
+    max-width: 184px;
+    min-width: 92px;
+    max-height: 78px;
+    background: #EAAB23;
+    border: none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    cursor: pointer;
+} */
 @keyframes phone {
     0% {
         transform: rotateZ(0deg);
