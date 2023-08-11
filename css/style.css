@@ -11,7 +11,7 @@ img {
     max-width: 848px;
     max-height: 480px;
     margin: auto;
-    padding: 6.2vh 5% 9px;
+    padding: 3.1vh 5% 9px;
 }
 .wrapper__row {
     display: flex;
@@ -20,6 +20,7 @@ img {
 }
 .wrapper__column {
     display: block;
+    align-items: flex-start;
 }
 .wrapper__column svg{
     margin-left: 31px;
@@ -52,7 +53,9 @@ img {
     color: #FFF;
     font-family: Yeseva One;
     font-size: 60px;
-    margin: -8px 0 1.8vw 0;
+    margin-bottom: 11px;
+    margin-top: 0;
+    line-height: 100%;
 }
 .wrapper__title2 {
     color: #FFF;
@@ -110,11 +113,8 @@ img {
 
 
 .window {
-    background-size: cover;
-    max-width: 848px;
-    max-height: 480px;
     margin: auto;
-    padding: 6.2vh 5% 9px;
+    padding: 3.1vh 5% 9px;
     position: absolute;
     z-index: 10;
     top: 0;
@@ -134,15 +134,29 @@ img {
 .wrapper__third-link img {visibility: visible;}
 .wrapper__third-link:hover {visibility: visible;}
 
-.one{background: url('../img/bg2.jpg') no-repeat center;}
-.two{background: url('../img/bg3.jpg') no-repeat center;}
-.three{background: url('../img/bg4.jpg') no-repeat center;}
+.one{
+    background: url('../img/bg2.jpg') no-repeat center;
+    background-size: cover;
+    max-width: 848px;
+    max-height: 480px;
+}
+.two{
+    background: url('../img/bg3.jpg') no-repeat center;
+    background-size: cover;
+    max-width: 848px;
+    max-height: 480px;
+}
+.three{
+    background: url('../img/bg4.jpg') no-repeat center;
+    background-size: cover;
+    max-width: 848px;
+    max-height: 480px;
+}
 .window__text {
     color: #FFF;
     font-family: Inter;
     font-size: 31px;
     margin: 0;
-    margin-top: 15px;
 }
 .window__row2 {
     display: flex;
