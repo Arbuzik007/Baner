@@ -11,7 +11,7 @@ img {
     max-width: 848px;
     max-height: 480px;
     margin: auto;
-    padding: 5.5vh 5% 9px;
+    padding: 31px 5% 9px;
 }
 .wrapper__row {
     display: flex;
