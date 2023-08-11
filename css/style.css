@@ -73,6 +73,8 @@ img {
 }
 .link {
     width: 21.7%;
+}
+.link img {
     transform: scale(.95);
   animation: pulse 2s ease-in-out infinite;
 }
