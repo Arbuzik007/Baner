@@ -1,6 +1,9 @@
 @media screen and (max-width: 1000px) {
     .wrapper {
-        padding: 5.5vw 5% 9px;
+        padding: 3.1vw 5% 9px;
+    }
+    .window {
+        padding: 3.1vh 5% 9px;
     }
     .wrapper__title {
         font-size: 5.8vw;
