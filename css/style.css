@@ -192,19 +192,10 @@ img {
 .window__row2 svg:hover {
     opacity: 0.8;
 }
-/* .window__btn-choose {
-    border-radius: 27px;
-    width: 18.4vw;
-    max-width: 184px;
-    min-width: 92px;
-    max-height: 78px;
-    background: #EAAB23;
-    border: none;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 22px;
-    cursor: pointer;
-} */
+.btn {
+    transform: scale(.95);
+  animation: pulse 2s ease-in-out infinite;
+}
 @keyframes phone {
     0% {
         transform: rotateZ(0deg);
