@@ -73,7 +73,20 @@ img {
 }
 .link {
     width: 21.7%;
+    transform: scale(.95);
+  animation: pulse 2s ease-in-out infinite;
 }
+@keyframes pulse {
+    from {
+      transform: scale(.95);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.95);
+    }
+  }
 .wrapper__btn-geo {
     border: none;
     background: none;
